@@ -11,7 +11,39 @@
 		D94CC93C2B84D92500B0748D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC93B2B84D92500B0748D /* ContentView.swift */; };
 		D94CC93E2B84D92700B0748D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94CC93D2B84D92700B0748D /* Assets.xcassets */; };
 		D94CC9412B84D92700B0748D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94CC9402B84D92700B0748D /* Preview Assets.xcassets */; };
+		D94CC94E2B84DA3F00B0748D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94CC94D2B84DA3E00B0748D /* WidgetKit.framework */; };
+		D94CC9502B84DA3F00B0748D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94CC94F2B84DA3F00B0748D /* SwiftUI.framework */; };
+		D94CC9532B84DA3F00B0748D /* CitationWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC9522B84DA3F00B0748D /* CitationWidgetBundle.swift */; };
+		D94CC9552B84DA3F00B0748D /* CitationWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC9542B84DA3F00B0748D /* CitationWidgetLiveActivity.swift */; };
+		D94CC9572B84DA3F00B0748D /* CitationWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC9562B84DA3F00B0748D /* CitationWidget.swift */; };
+		D94CC9592B84DA3F00B0748D /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CC9582B84DA3F00B0748D /* AppIntent.swift */; };
+		D94CC95B2B84DA4100B0748D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94CC95A2B84DA4100B0748D /* Assets.xcassets */; };
+		D94CC95F2B84DA4100B0748D /* CitationWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D94CC94B2B84DA3E00B0748D /* CitationWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D94CC95D2B84DA4100B0748D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94CC92E2B84D92500B0748D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94CC94A2B84DA3E00B0748D;
+			remoteInfo = CitationWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D94CC9632B84DA4100B0748D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D94CC95F2B84DA4100B0748D /* CitationWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D94CC9362B84D92500B0748D /* Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +51,15 @@
 		D94CC93B2B84D92500B0748D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D94CC93D2B84D92700B0748D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D94CC9402B84D92700B0748D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D94CC94B2B84DA3E00B0748D /* CitationWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CitationWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94CC94D2B84DA3E00B0748D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D94CC94F2B84DA3F00B0748D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D94CC9522B84DA3F00B0748D /* CitationWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitationWidgetBundle.swift; sourceTree = "<group>"; };
+		D94CC9542B84DA3F00B0748D /* CitationWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitationWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		D94CC9562B84DA3F00B0748D /* CitationWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitationWidget.swift; sourceTree = "<group>"; };
+		D94CC9582B84DA3F00B0748D /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		D94CC95A2B84DA4100B0748D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D94CC95C2B84DA4100B0748D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +70,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D94CC9482B84DA3E00B0748D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94CC9502B84DA3F00B0748D /* SwiftUI.framework in Frameworks */,
+				D94CC94E2B84DA3F00B0748D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				D94CC9382B84D92500B0748D /* Widget */,
+				D94CC9512B84DA3F00B0748D /* CitationWidget */,
+				D94CC94C2B84DA3E00B0748D /* Frameworks */,
 				D94CC9372B84D92500B0748D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				D94CC9362B84D92500B0748D /* Widget.app */,
+				D94CC94B2B84DA3E00B0748D /* CitationWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +120,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D94CC94C2B84DA3E00B0748D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC94D2B84DA3E00B0748D /* WidgetKit.framework */,
+				D94CC94F2B84DA3F00B0748D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D94CC9512B84DA3F00B0748D /* CitationWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D94CC9522B84DA3F00B0748D /* CitationWidgetBundle.swift */,
+				D94CC9542B84DA3F00B0748D /* CitationWidgetLiveActivity.swift */,
+				D94CC9562B84DA3F00B0748D /* CitationWidget.swift */,
+				D94CC9582B84DA3F00B0748D /* AppIntent.swift */,
+				D94CC95A2B84DA4100B0748D /* Assets.xcassets */,
+				D94CC95C2B84DA4100B0748D /* Info.plist */,
+			);
+			path = CitationWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +152,34 @@
 				D94CC9322B84D92500B0748D /* Sources */,
 				D94CC9332B84D92500B0748D /* Frameworks */,
 				D94CC9342B84D92500B0748D /* Resources */,
+				D94CC9632B84DA4100B0748D /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D94CC95E2B84DA4100B0748D /* PBXTargetDependency */,
 			);
 			name = Widget;
 			productName = Widget;
 			productReference = D94CC9362B84D92500B0748D /* Widget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D94CC94A2B84DA3E00B0748D /* CitationWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94CC9602B84DA4100B0748D /* Build configuration list for PBXNativeTarget "CitationWidgetExtension" */;
+			buildPhases = (
+				D94CC9472B84DA3E00B0748D /* Sources */,
+				D94CC9482B84DA3E00B0748D /* Frameworks */,
+				D94CC9492B84DA3E00B0748D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitationWidgetExtension;
+			productName = CitationWidgetExtension;
+			productReference = D94CC94B2B84DA3E00B0748D /* CitationWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +192,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					D94CC9352B84D92500B0748D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D94CC94A2B84DA3E00B0748D = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -116,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				D94CC9352B84D92500B0748D /* Widget */,
+				D94CC94A2B84DA3E00B0748D /* CitationWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +225,14 @@
 			files = (
 				D94CC9412B84D92700B0748D /* Preview Assets.xcassets in Resources */,
 				D94CC93E2B84D92700B0748D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94CC9492B84DA3E00B0748D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94CC95B2B84DA4100B0748D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +248,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D94CC9472B84DA3E00B0748D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94CC9572B84DA3F00B0748D /* CitationWidget.swift in Sources */,
+				D94CC9592B84DA3F00B0748D /* AppIntent.swift in Sources */,
+				D94CC9552B84DA3F00B0748D /* CitationWidgetLiveActivity.swift in Sources */,
+				D94CC9532B84DA3F00B0748D /* CitationWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D94CC95E2B84DA4100B0748D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94CC94A2B84DA3E00B0748D /* CitationWidgetExtension */;
+			targetProxy = D94CC95D2B84DA4100B0748D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D94CC9422B84D92700B0748D /* Debug */ = {
@@ -267,6 +392,7 @@
 		D94CC9452B84D92700B0748D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +422,7 @@
 		D94CC9462B84D92700B0748D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +449,60 @@
 			};
 			name = Release;
 		};
+		D94CC9612B84DA4100B0748D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG8DTPV84D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CitationWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CitationWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThibaultGodefroy.Widget.CitationWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D94CC9622B84DA4100B0748D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MG8DTPV84D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CitationWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CitationWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThibaultGodefroy.Widget.CitationWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +520,15 @@
 			buildConfigurations = (
 				D94CC9452B84D92700B0748D /* Debug */,
 				D94CC9462B84D92700B0748D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D94CC9602B84DA4100B0748D /* Build configuration list for PBXNativeTarget "CitationWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94CC9612B84DA4100B0748D /* Debug */,
+				D94CC9622B84DA4100B0748D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
